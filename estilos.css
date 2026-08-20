@@ -1,0 +1,129 @@
+body {
+  font-family: sans-serif;  
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(-45deg, #003B46, #07575B, #66A5AD, #C4DFE6, #0A0F14);
+  background-size: 400% 400%;
+  animation:
+    degradadoEnMovimiento 35s ease infinite;
+}
+@keyframes degradadoEnMovimiento {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#nav{
+  height:60px;
+  background-color: aqua;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#nav a{
+  width:32.75%;
+  height:95%;
+  padding:2px;
+  background-color: #000;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  color:aqua;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 12px;
+}
+#main {
+  margin-bottom: 0px;
+  margin:10px auto;
+  width: 700px;
+  height:500px;
+  background-color: aqua;
+  border-radius: 12px;
+  margin-top: 100px;
+} 
+#T1 {
+  width: auto;
+  height: 50px;
+  background-color: #000;
+  border-radius: 10px 10px 0px 0px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color:aqua;
+}
+#T1 h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+#Content {
+  width: auto;
+  height: 600px;
+  background-color: #000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#Controles {
+  background-color: aqua;
+  border-radius: 0px 0px 12px 12px;
+  height: 60px;
+  width: auto;
+  margin: 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Bx {
+  width:32%;
+  height:70%;
+  padding:2px;
+  background-color:#000;
+  color:aqua;
+  font-weight: bold;  
+  font-size: 25px;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#nav a:hover{
+  color:aquamarine;
+  background-color: #003B46;
+  text-decoration: underline;
+}
+#footer{
+  margin-top: 225px;
+  height:60px;
+  background-color: aqua;
+  display:flex; 
+  justify-content: space-evenly;
+  align-items: center;
+}
+#footercopy {
+  height: 40px;
+  width: 280px;
+  background-color: #000;
+  border-radius: 12px;
+  color: aqua;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.Bx:hover {
+ color:aquamarine;
+  background-color: #003B46;
+  text-decoration: underline;
+}
+
+.Bx:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
